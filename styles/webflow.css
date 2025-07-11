@@ -78,8 +78,7 @@ header {
 
 .preview-txt p {
   font-size: 24px;
-  color: #252432;
-  opacity: 0.5;
+  color: #25243280;
   margin: 23px 0px;
 }
 
@@ -126,4 +125,69 @@ header {
   font-size: 20px;
   color: #000;
   opacity: 0.5;
+}
+
+/* testimony section */
+
+.testimony-container {
+  max-width: 1140px;
+  max-height: 328px;
+  margin: 92px auto;
+}
+
+.testimony-container h2 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.testimonies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.testimony {
+  background-color: #ffffff80;
+  border-radius: 14px;
+  padding: 24px;
+  outline: 1px solid #f2eded;
+  outline-offset: -1px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: "Inter", sans-serif;
+}
+
+.ratings {
+  display: flex;
+  gap: 4px;
+}
+
+.testimonies h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.reviewer {
+  display: flex;
+  gap: 12px;
+}
+
+.reviewer img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.reviewer-data h4 {
+  color: #25243280;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.reviewer-data p {
+  color: #2524324d;
+  font-weight: 400;
+  font-size: 14px;
 }
